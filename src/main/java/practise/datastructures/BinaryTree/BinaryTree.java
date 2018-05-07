@@ -28,4 +28,20 @@ public class BinaryTree {
 		return root.numOfNodes();
 	}
 	
+	public int height(BinaryTreeNode node) {
+		if(node==null) {
+			return 0;
+		} else {
+			int leftTreeHeight = height(node.getLeft());
+			int rightTreeHeight = height(node.getRight());
+			
+			if(leftTreeHeight>rightTreeHeight) {
+				return leftTreeHeight+1;
+			}else {
+				return rightTreeHeight+1;
+			}
+		}
+		
+	}
+	
 }
