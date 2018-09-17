@@ -1,6 +1,6 @@
 # DataStructures
 
-#### Tree| 
+### Tree| 
 [BinaryTreeNode.java](src/main/java/practise/datastructures/BinaryTree/BinaryTreeNode.java)|
 [BinaryTree.java](src/main/java/practise/datastructures/BinaryTree/BinaryTree.java)|
 [BinaryTreeUtil.java](src/main/java/practise/datastructures/BinaryTree/BinaryTreeUtil.java)|
@@ -13,3 +13,6 @@
 [PrintLeftViewBT.java](src/main/java/practise/datastructures/BinaryTree/PrintLeftViewBT.java)|
 [PrintRightViewBT.java](src/main/java/practise/datastructures/BinaryTree/PrintRightViewBT.java)|
 [RootToLeavesPath.java](src/main/java/practise/datastructures/BinaryTree/RootToLeavesPath.java)|
+
+### Stack| 
+[NextGreaterElement.java](src/main/java/practise/datastructures/Stack/NextGreaterElement.java)|
