@@ -23,16 +23,35 @@ public class BinaryTreeTest {
 	@Test
 	public void preOrderRecursiveTest() {
 		BinaryTree tree = createSampleBT();
-		System.out.print("PreOrderTraversal : ");
+		node4.setLeft(node8);
+		System.out.print("PreOrderRecursive : ");
 		PreOrderTraversal.preOrderRecursive(tree.getRoot());
+		System.out.println();
+	}
+	
+	@Test
+	public void preOrderIterativeTest() {
+		BinaryTree tree = createSampleBT();
+		node4.setLeft(node8);
+		System.out.print("PreOrderIterative : ");
+		PreOrderTraversal.preOrderIterative(tree.getRoot());
 		System.out.println();
 	}
 	
 	@Test
 	public void inOrderRecursiveTest() {
 		BinaryTree tree = createSampleBT();	
-		System.out.print("InOrderTraversal : ");
+		System.out.print("InOrderRecursive : ");
 		InOrderTraversal.inOrderRecursive(tree.getRoot());
+		System.out.println();
+	}
+	
+	@Test
+	public void inOrderIterativeStackTest() {
+		BinaryTree tree = createSampleBT();	
+		node4.setLeft(node8);
+		System.out.print("InOrderTraversal Using Stack : ");
+		InOrderTraversal.inOrderIterativeStack(tree.getRoot());
 		System.out.println();
 	}
 	

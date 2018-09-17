@@ -11,7 +11,7 @@ public class LevelOrderTraversal {
 		}
 		Queue<BinaryTreeNode> q = new LinkedList<BinaryTreeNode>();
 		System.out.print("Level Order Traversal : ");
-		q.add(root);
+		q.add(root);		
 		while(!q.isEmpty()) {
 			BinaryTreeNode temp = q.poll();
 			System.out.print(temp.getData());			
