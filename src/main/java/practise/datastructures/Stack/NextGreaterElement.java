@@ -28,7 +28,7 @@ public class NextGreaterElement {
 	
 	public static void printNGEUsingStack(int[] arr, int len) {
 		System.out.println("printNGEUsingStack");
-		Stack s= new Stack();
+		Stack<Integer> s= new Stack<Integer>();
 		s.push(arr[0]);
 		for(int i=1;i<len;i++) {
 			int next = arr[i];
