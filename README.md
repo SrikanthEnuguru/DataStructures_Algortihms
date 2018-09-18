@@ -15,4 +15,8 @@
 [RootToLeavesPath.java](src/main/java/practise/datastructures/BinaryTree/RootToLeavesPath.java)|
 
 ### Stack| 
-[NextGreaterElement.java](src/main/java/practise/datastructures/Stack/NextGreaterElement.java)|
+[NextGreaterElement.java](src/main/java/practise/datastructures/stack/NextGreaterElement.java)|
+
+
+### Queue| 
+[QueueUsingStacks.java](src/main/java/practise/datastructures/queue/QueueUsingStacks.java)|

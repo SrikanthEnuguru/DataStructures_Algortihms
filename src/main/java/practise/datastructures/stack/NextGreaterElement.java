@@ -1,4 +1,4 @@
-package practise.datastructures.Stack;
+package practise.datastructures.stack;
 
 import java.util.Stack;
 
