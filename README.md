@@ -2,6 +2,7 @@
 
 ### Dynamic Programming |
 [LongestCommonSubsequence.java](src/main/java/practise/algorithms/dp/LongestCommonSubsequence.java) |
+[LongestIncreasingSubsequence.java](src/main/java/practise/algorithms/dp/LongestIncreasingSubsequence.java) |
 
 ### Tree | 
 [BinaryTreeNode.java](src/main/java/practise/datastructures/BinaryTree/BinaryTreeNode.java) |
