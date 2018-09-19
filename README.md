@@ -1,6 +1,9 @@
 # DataStructures
 
-### Tree| 
+### Dynamic Programming |
+[LongestCommonSubsequence.java](src/main/java/practise/algorithms/dp/LongestCommonSubsequence.java) |
+
+### Tree | 
 [BinaryTreeNode.java](src/main/java/practise/datastructures/BinaryTree/BinaryTreeNode.java) |
 [BinaryTree.java](src/main/java/practise/datastructures/BinaryTree/BinaryTree.java) |
 [BinaryTreeUtil.java](src/main/java/practise/datastructures/BinaryTree/BinaryTreeUtil.java) |
@@ -15,11 +18,12 @@
 [RootToLeavesPath.java](src/main/java/practise/datastructures/BinaryTree/RootToLeavesPath.java) |
 
 
-### Stack| 
+### Stack | 
 [NextGreaterElement.java](src/main/java/practise/datastructures/stack/NextGreaterElement.java) |
 [StackUsingTwoQueues.java](src/main/java/practise/datastructures/stack/StackUsingTwoQueues.java) |
 [StackUsingOneQueue.java](src/main/java/practise/datastructures/stack/StackUsingOneQueue.java) |
+[MinElementInStack.java](src/main/java/practise/datastructures/stack/MinElementInStack.java) |
 
 
-### Queue| 
+### Queue | 
 [QueueUsingStacks.java](src/main/java/practise/datastructures/queue/QueueUsingStacks.java) |
