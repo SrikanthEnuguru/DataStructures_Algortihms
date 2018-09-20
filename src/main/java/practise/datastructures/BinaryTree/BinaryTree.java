@@ -1,8 +1,8 @@
 package practise.datastructures.BinaryTree;
 
 public class BinaryTree {
-	
-	private BinaryTreeNode root;
+
+	public BinaryTreeNode root;
 	
 	public BinaryTree() {		
 		this.root = null;

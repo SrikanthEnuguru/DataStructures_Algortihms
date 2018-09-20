@@ -20,6 +20,8 @@
 [PrintLeftViewBT.java](src/main/java/practise/datastructures/BinaryTree/PrintLeftViewBT.java) |
 [PrintRightViewBT.java](src/main/java/practise/datastructures/BinaryTree/PrintRightViewBT.java) |
 [RootToLeavesPath.java](src/main/java/practise/datastructures/BinaryTree/RootToLeavesPath.java) |
+[PrintKDistanceNodesFromRoot.java](src/main/java/practise/datastructures/BinaryTree/PrintKDistanceNodesFromRoot.java) |
+[PrintKDistanceNodesFromTarget.java](src/main/java/practise/datastructures/BinaryTree/PrintKDistanceNodesFromTarget.java) |
 
 
 ### Stack | 

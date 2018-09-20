@@ -29,4 +29,18 @@ public class BinaryTreeUtil {
 		return tree;
 	}
 
+	public static BinaryTree createSampleBT2() {
+		BinaryTreeNode node4 = new BinaryTreeNode(4);
+		BinaryTreeNode node22 = new BinaryTreeNode(22);
+		BinaryTreeNode node10 = new BinaryTreeNode(10);
+		BinaryTreeNode node14 = new BinaryTreeNode(14);
+		BinaryTreeNode node12 = new BinaryTreeNode(12, node10, node14);
+		BinaryTreeNode node8 = new BinaryTreeNode(8, node4, node12);
+
+		BinaryTreeNode root = new BinaryTreeNode(20, node8, node22);
+		BinaryTree tree = new BinaryTree(root);
+		return tree;
+	}
+
+
 }
