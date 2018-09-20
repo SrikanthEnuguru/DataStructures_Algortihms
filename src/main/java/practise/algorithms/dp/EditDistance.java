@@ -41,11 +41,13 @@ public class EditDistance {
         String str1 = "sunday";
         String str2 = "saturday";
 
-        System.out.println(editDistanceRec(str1, str2));
+        System.out.println("Recursive Approach: " + editDistanceRec(str1, str2));
+        System.out.println("DP Approach: " + editDistanceDP(str1, str2));
 
         str1 = "geek";
         str2 = "gesek";
-        System.out.println(editDistanceRec(str1, str2));
+        System.out.println("Recursive Approach: " + editDistanceRec(str1, str2));
+        System.out.println("DP Approach: " + editDistanceRec(str1, str2));
     }
 
     static int editDistanceRec(String s1, String s2) {
@@ -71,5 +73,43 @@ public class EditDistance {
             int updateOp = editDistanceAux(s1, s2, m - 1, n - 1);
             return 1 + Math.min(insertOp, Math.min(deleteOp, updateOp));
         }
+    }
+
+    // A Dynamic Programming based Java program to find minimum
+    // number operations to convert str1 to str2
+
+    static int editDistanceDP(String s1, String s2) {
+        int m = s1.length();
+        int n = s2.length();
+
+        // Create a table to store results of subproblems
+        int temp[][] = new int[m + 1][n + 1];
+
+        // Fill d[][] in bottom up manner
+        for (int i = 0; i <= m; i++) {
+            for (int j = 0; j <= n; j++) {
+                // If first string is empty, only option is to
+                // insert all characters of second string
+                if (i == 0) {
+                    temp[i][j] = j;
+                }
+                // If second string is empty, only option is to
+                // remove all characters of second string
+                else if (j == 0) {
+                    temp[i][j] = i;
+                }
+                // If last characters are same, ignore last char
+                // and recur for remaining string
+                else if (s1.charAt(i - 1) == s2.charAt(j - 1)) {
+                    temp[i][j] = temp[i - 1][j - 1];
+                }
+                // If the last character is different, consider all
+                // possibilities and find the minimum
+                else {
+                    temp[i][j] = 1 + Math.min(temp[i][j - 1], Math.min(temp[i - 1][j], temp[i - 1][j - 1]));
+                }
+            }
+        }
+        return temp[m][n];
     }
 }
