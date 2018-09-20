@@ -1,9 +1,10 @@
 # DataStructures
 
-### Dynamic Programming |
-[LongestCommonSubsequence.java](src/main/java/practise/algorithms/dp/LongestCommonSubsequence.java) |
-[LongestIncreasingSubsequence.java](src/main/java/practise/algorithms/dp/LongestIncreasingSubsequence.java) |
-[EggDropping.java](src/main/java/practise/algorithms/dp/EggDropping.java) |
+### LinkedList |
+[ListNode.java](src/main/java/practise/datastructures/linkedlist/ListNode.java) |
+[LinkedList.java](src/main/java/practise/datastructures/linkedlist/LinkedList.java) |
+[LinkedListUtil.java](src/main/java/practise/datastructures/linkedlist/LinkedListUtil.java) |
+[ReverseLinkedList.java](src/main/java/practise/datastructures/linkedlist/ReverseLinkedList.java) |
 
 
 ### Tree | 
@@ -30,3 +31,11 @@
 
 ### Queue | 
 [QueueUsingStacks.java](src/main/java/practise/datastructures/queue/QueueUsingStacks.java) |
+
+
+# Algorithms
+
+### Dynamic Programming |
+[LongestCommonSubsequence.java](src/main/java/practise/algorithms/dp/LongestCommonSubsequence.java) |
+[LongestIncreasingSubsequence.java](src/main/java/practise/algorithms/dp/LongestIncreasingSubsequence.java) |
+[EggDropping.java](src/main/java/practise/algorithms/dp/EggDropping.java) |
