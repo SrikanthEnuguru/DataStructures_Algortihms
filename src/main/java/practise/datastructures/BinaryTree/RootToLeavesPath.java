@@ -1,6 +1,11 @@
 package practise.datastructures.BinaryTree;
 
 public class RootToLeavesPath {
+
+	public static void main(String[] args) {
+		BinaryTree tree = BinaryTreeUtil.createSampleBT();
+		printRootToLeavesPaths(tree.getRoot());
+	}
 	
 	public static void printRootToLeavesPaths(BinaryTreeNode root) {
 		int[] paths = new int[1000];

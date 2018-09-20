@@ -35,9 +35,11 @@
 [QueueUsingStacks.java](src/main/java/practise/datastructures/queue/QueueUsingStacks.java) |
 
 
+
 # Algorithms
 
 ### Dynamic Programming |
 [LongestCommonSubsequence.java](src/main/java/practise/algorithms/dp/LongestCommonSubsequence.java) |
 [LongestIncreasingSubsequence.java](src/main/java/practise/algorithms/dp/LongestIncreasingSubsequence.java) |
 [EggDropping.java](src/main/java/practise/algorithms/dp/EggDropping.java) |
+[EditDistance.java](src/main/java/practise/algorithms/dp/EditDistance.java) |

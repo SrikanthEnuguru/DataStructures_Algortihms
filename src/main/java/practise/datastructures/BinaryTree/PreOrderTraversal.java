@@ -12,8 +12,8 @@ public class PreOrderTraversal {
 		preOrderRecursive(root.getLeft());
 		preOrderRecursive(root.getRight());		
 	}
-	
-	public static void preOrderIterative(BinaryTreeNode root) {
+
+	public static void preOrderIterative1(BinaryTreeNode root) {
 		if(root == null) {
 			return;
 		}
