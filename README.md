@@ -7,6 +7,10 @@
 [1. Finding middle element in a linked list](src/main/java/practise/datastructures/linkedlist/MiddleElementInLinkedList.java) <br />
 [2. Reverse a linked list](src/main/java/practise/datastructures/linkedlist/ReverseLinkedList.java) <br />
 [3. Rotate a linked list](src/main/java/practise/datastructures/linkedlist/RotateLinkedList.java) <br />
+[4. Reverse a Linked List in groups of given size](src/main/java/practise/datastructures/linkedlist/ReverseLinkedListInGroups.java) <br />
+[5. Detect Loop in linked list](src/main/java/practise/datastructures/linkedlist/DetectLoopInLinkedList.java) <br />
+[6. Remove Loop in linked list](src/main/java/practise/datastructures/linkedlist/DetectAndRemoveLoopInLinkedList.java) <br />
+
 
 
 ### Tree 
