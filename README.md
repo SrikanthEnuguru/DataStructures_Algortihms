@@ -1,13 +1,15 @@
 # DataStructures
 
-### LinkedList |
+### Linked List 
 [ListNode.java](src/main/java/practise/datastructures/linkedlist/ListNode.java) |
 [LinkedList.java](src/main/java/practise/datastructures/linkedlist/LinkedList.java) |
-[LinkedListUtil.java](src/main/java/practise/datastructures/linkedlist/LinkedListUtil.java) |
-[ReverseLinkedList.java](src/main/java/practise/datastructures/linkedlist/ReverseLinkedList.java) |
+[LinkedListUtil.java](src/main/java/practise/datastructures/linkedlist/LinkedListUtil.java) <br />
+[1. Finding middle element in a linked list](src/main/java/practise/datastructures/linkedlist/MiddleElementInLinkedList.java) <br />
+[2. Reverse a linked list](src/main/java/practise/datastructures/linkedlist/ReverseLinkedList.java) <br />
+[3. Rotate a linked list](src/main/java/practise/datastructures/linkedlist/RotateLinkedList.java) <br />
 
 
-### Tree | 
+### Tree 
 [BinaryTreeNode.java](src/main/java/practise/datastructures/BinaryTree/BinaryTreeNode.java) |
 [BinaryTree.java](src/main/java/practise/datastructures/BinaryTree/BinaryTree.java) |
 [BinaryTreeUtil.java](src/main/java/practise/datastructures/BinaryTree/BinaryTreeUtil.java) |
@@ -24,21 +26,21 @@
 [PrintKDistanceNodesFromTarget.java](src/main/java/practise/datastructures/BinaryTree/PrintKDistanceNodesFromTarget.java) |
 
 
-### Stack | 
+### Stack 
 [NextGreaterElement.java](src/main/java/practise/datastructures/stack/NextGreaterElement.java) |
 [StackUsingTwoQueues.java](src/main/java/practise/datastructures/stack/StackUsingTwoQueues.java) |
 [StackUsingOneQueue.java](src/main/java/practise/datastructures/stack/StackUsingOneQueue.java) |
 [MinElementInStack.java](src/main/java/practise/datastructures/stack/MinElementInStack.java) |
 
 
-### Queue | 
+### Queue 
 [QueueUsingStacks.java](src/main/java/practise/datastructures/queue/QueueUsingStacks.java) |
 
 
 
 # Algorithms
 
-### Dynamic Programming |
+### Dynamic Programming 
 [LongestCommonSubsequence.java](src/main/java/practise/algorithms/dp/LongestCommonSubsequence.java) |
 [LongestIncreasingSubsequence.java](src/main/java/practise/algorithms/dp/LongestIncreasingSubsequence.java) |
 [EggDropping.java](src/main/java/practise/algorithms/dp/EggDropping.java) |
