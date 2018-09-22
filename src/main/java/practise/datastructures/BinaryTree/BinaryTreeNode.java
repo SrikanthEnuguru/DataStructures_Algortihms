@@ -3,17 +3,20 @@ package practise.datastructures.BinaryTree;
 public class BinaryTreeNode {
 
 	public int data;
+	public int hd;
 	public BinaryTreeNode left;
 	public BinaryTreeNode right;
 	
 	public BinaryTreeNode(int data) {		
 		this.data = data;
+		this.hd = Integer.MAX_VALUE;
 		this.left = null;
 		this.right = null;
 	}
 	
 	public BinaryTreeNode(int data, BinaryTreeNode left, BinaryTreeNode right) {		
 		this.data = data;
+		this.hd = Integer.MAX_VALUE;
 		this.left = left;
 		this.right = right;
 	}
@@ -35,6 +38,14 @@ public class BinaryTreeNode {
 	}
 	public void setRight(BinaryTreeNode right) {
 		this.right = right;
+	}
+
+	public int getHd() {
+		return hd;
+	}
+
+	public void setHd(int hd) {
+		this.hd = hd;
 	}
 	
 	// Tests whether this node is a leaf node.

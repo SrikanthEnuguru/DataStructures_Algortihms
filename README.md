@@ -38,6 +38,7 @@
 [8. Print root to leaf paths](src/main/java/practise/datastructures/BinaryTree/RootToLeavesPath.java) <br />
 [9. Print nodes at k distance from root](src/main/java/practise/datastructures/BinaryTree/PrintKDistanceNodesFromRoot.java) <br />
 [10. Print all nodes at distance k from a given node](src/main/java/practise/datastructures/BinaryTree/PrintKDistanceNodesFromTarget.java) <br />
+[11. Print Bottom View of Binary Tree](src/main/java/practise/datastructures/BinaryTree/BottomViewOfBT.java) <br />
 
 
 # Algorithms
