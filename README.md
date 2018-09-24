@@ -41,6 +41,12 @@
 [11. Print Bottom View of Binary Tree](src/main/java/practise/datastructures/BinaryTree/BottomViewOfBT.java) <br />
 [12. Print a Binary Tree in Vertical Order](src/main/java/practise/datastructures/BinaryTree/VerticalOrderBT.java) <br />
 [13. Level order traversal in spiral form](src/main/java/practise/datastructures/BinaryTree/PrintSpiralBT.java) <br />
+[13. Connect Nodes at Same Level](src/main/java/practise/datastructures/BinaryTree/ConnectNodesAtSameLevel.java) <br />
+[14. Lowest Common Ancestor in a Binary Tree](src/main/java/practise/datastructures/BinaryTree/LowestCommonAncestorBT.java) <br />
+
+
+### Binary Search Tree 
+[1. Lowest Common Ancestor in a Binary Search Tree](src/main/java/practise/datastructures/BinarySearchTree/LowestCommonAncestorBST.java) <br/>
 
 
 # Algorithms

@@ -29,6 +29,23 @@ public class BinaryTreeUtil {
 		return tree;
 	}
 
+	public static BinaryTree createSampleBST2() {
+		BinaryTreeNode node6 = new BinaryTreeNode(6);
+		BinaryTreeNode node9 = new BinaryTreeNode(9);
+		BinaryTreeNode node28 = new BinaryTreeNode(28);
+		BinaryTreeNode node78 = new BinaryTreeNode(78);
+
+		BinaryTreeNode node8 = new BinaryTreeNode(8, node6, node9);
+		BinaryTreeNode node25 = new BinaryTreeNode(25, null, node28);
+		BinaryTreeNode node60 = new BinaryTreeNode(60, null, node78);
+		BinaryTreeNode node_10 = new BinaryTreeNode(-10, null, node8);
+		BinaryTreeNode node30 = new BinaryTreeNode(30, node25, node60);
+		BinaryTreeNode root = new BinaryTreeNode(10, node_10, node30);
+
+		BinaryTree tree = new BinaryTree(root);
+		return tree;
+	}
+
 	public static BinaryTree createSampleBT2() {
 		BinaryTreeNode node4 = new BinaryTreeNode(4);
 		BinaryTreeNode node22 = new BinaryTreeNode(22);
