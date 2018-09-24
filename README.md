@@ -24,7 +24,7 @@
 [1. Queue using two Stacks](src/main/java/practise/datastructures/queue/QueueUsingStacks.java) <br />
 
 
-### Tree 
+### Binary Tree 
 [BinaryTreeNode.java](src/main/java/practise/datastructures/BinaryTree/BinaryTreeNode.java) |
 [BinaryTree.java](src/main/java/practise/datastructures/BinaryTree/BinaryTree.java) |
 [BinaryTreeUtil.java](src/main/java/practise/datastructures/BinaryTree/BinaryTreeUtil.java) <br />
@@ -40,6 +40,7 @@
 [10. Print all nodes at distance k from a given node](src/main/java/practise/datastructures/BinaryTree/PrintKDistanceNodesFromTarget.java) <br />
 [11. Print Bottom View of Binary Tree](src/main/java/practise/datastructures/BinaryTree/BottomViewOfBT.java) <br />
 [12. Print a Binary Tree in Vertical Order](src/main/java/practise/datastructures/BinaryTree/VerticalOrderBT.java) <br />
+[13. Level order traversal in spiral form](src/main/java/practise/datastructures/BinaryTree/PrintSpiralBT.java) <br />
 
 
 # Algorithms
