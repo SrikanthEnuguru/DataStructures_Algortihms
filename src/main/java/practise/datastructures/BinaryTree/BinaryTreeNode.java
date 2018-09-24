@@ -6,12 +6,14 @@ public class BinaryTreeNode {
 	public int hd;
 	public BinaryTreeNode left;
 	public BinaryTreeNode right;
+	public BinaryTreeNode nextRight;
 	
 	public BinaryTreeNode(int data) {		
 		this.data = data;
 		this.hd = Integer.MAX_VALUE;
 		this.left = null;
 		this.right = null;
+		this.nextRight = null;
 	}
 	
 	public BinaryTreeNode(int data, BinaryTreeNode left, BinaryTreeNode right) {		
@@ -19,6 +21,7 @@ public class BinaryTreeNode {
 		this.hd = Integer.MAX_VALUE;
 		this.left = left;
 		this.right = right;
+		this.nextRight = null;
 	}
 	
 	public int getData() {
@@ -38,6 +41,14 @@ public class BinaryTreeNode {
 	}
 	public void setRight(BinaryTreeNode right) {
 		this.right = right;
+	}
+
+	public BinaryTreeNode getNextRight() {
+		return nextRight;
+	}
+
+	public void setNextRight(BinaryTreeNode nextRight) {
+		this.nextRight = nextRight;
 	}
 
 	public int getHd() {
