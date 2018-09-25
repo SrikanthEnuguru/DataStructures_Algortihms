@@ -44,6 +44,7 @@
 [13. Connect Nodes at Same Level](src/main/java/practise/datastructures/BinaryTree/ConnectNodesAtSameLevel.java) <br />
 [14. Lowest Common Ancestor in a Binary Tree](src/main/java/practise/datastructures/BinaryTree/LowestCommonAncestorBT.java) <br />
 [15. Convert a given Binary Tree to Doubly Linked List](src/main/java/practise/datastructures/BinaryTree/ConvertBTtoDLL.java) <br/>
+[16. Determine if Two Trees are Identical or Not](src/main/java/practise/datastructures/BinaryTree/IdenticalBinaryTrees.java)<br/>
 
 
 ### Binary Search Tree 
