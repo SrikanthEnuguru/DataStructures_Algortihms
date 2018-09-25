@@ -4,6 +4,15 @@ public class BinaryTreeUtil {
 	
 	
 	public static BinaryTree createSampleBT() {
+		/* Constructed binary tree is
+                1
+              /   \
+             2     3
+            / \    /\
+           4   5  6  7
+
+           Inorder: 4 2 5 1 6 3 7
+        */
 		BinaryTreeNode node4 = new BinaryTreeNode(4);
 		BinaryTreeNode node5 = new BinaryTreeNode(5);
 		 BinaryTreeNode node6 = new BinaryTreeNode(6);
@@ -11,6 +20,25 @@ public class BinaryTreeUtil {
 		 BinaryTreeNode node2 = new BinaryTreeNode(2,node4,node5);
 		 BinaryTreeNode node3 = new BinaryTreeNode(3,node6,node7);
 		 BinaryTreeNode root = new BinaryTreeNode(1,node2,node3);
+		BinaryTree tree = new BinaryTree(root);
+		return tree;
+	}
+
+	public static BinaryTree createSampleBTMirror() {
+		/* Constructed binary tree is
+                1
+              /   \
+             3     2
+            / \    /\
+           7   6  5  4
+        */
+		BinaryTreeNode node4 = new BinaryTreeNode(4);
+		BinaryTreeNode node5 = new BinaryTreeNode(5);
+		BinaryTreeNode node6 = new BinaryTreeNode(6);
+		BinaryTreeNode node7 = new BinaryTreeNode(7);
+		BinaryTreeNode node2 = new BinaryTreeNode(2, node5, node4);
+		BinaryTreeNode node3 = new BinaryTreeNode(3, node7, node6);
+		BinaryTreeNode root = new BinaryTreeNode(1, node3, node2);
 		BinaryTree tree = new BinaryTree(root);
 		return tree;
 	}
