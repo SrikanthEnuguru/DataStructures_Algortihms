@@ -9,3 +9,5 @@ RemoteSystemsTempFiles/
 *.MF
 */target/*
 target/
+*.iml
+.idea/
