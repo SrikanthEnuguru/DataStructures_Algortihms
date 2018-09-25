@@ -46,6 +46,7 @@
 [15. Convert a given Binary Tree to Doubly Linked List](src/main/java/practise/datastructures/BinaryTree/ConvertBTtoDLL.java) <br/>
 [16. Determine if Two Trees are Identical or Not](src/main/java/practise/datastructures/BinaryTree/IdenticalBinaryTrees.java)<br/>
 [17. Check if two trees are Mirror](src/main/java/practise/datastructures/BinaryTree/CheckBTsAreMirror.java)<br/>
+[18. Height of Binary Tree](src/main/java/practise/datastructures/BinaryTree/HeightOfBT.java)<br/>
 
 
 ### Binary Search Tree 
