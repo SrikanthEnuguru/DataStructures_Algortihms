@@ -47,6 +47,7 @@
 [16. Determine if Two Trees are Identical or Not](src/main/java/practise/datastructures/BinaryTree/IdenticalBinaryTrees.java)<br/>
 [17. Check if two trees are Mirror](src/main/java/practise/datastructures/BinaryTree/CheckBTsAreMirror.java)<br/>
 [18. Height of Binary Tree](src/main/java/practise/datastructures/BinaryTree/HeightOfBT.java)<br/>
+[19. Diameter of Binary Tree](src/main/java/practise/datastructures/BinaryTree/DiameterOfBT.java)<br/>
 
 
 ### Binary Search Tree 
