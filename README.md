@@ -24,6 +24,11 @@
 [1. Queue using two Stacks](src/main/java/practise/datastructures/queue/QueueUsingStacks.java) <br />
 
 
+### Heap
+[1.Min Heap](src/main/java/practise/datastructures/heap/MinHeap.java)<br/>
+[2.Max Heap](src/main/java/practise/datastructures/heap/MaxHeap.java)<br/>
+
+
 ### Binary Tree 
 [BinaryTreeNode.java](src/main/java/practise/datastructures/BinaryTree/BinaryTreeNode.java) |
 [BinaryTree.java](src/main/java/practise/datastructures/BinaryTree/BinaryTree.java) |
