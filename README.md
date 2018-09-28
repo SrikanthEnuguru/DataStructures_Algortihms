@@ -58,6 +58,9 @@
 ### Binary Search Tree 
 [1. Lowest Common Ancestor in a Binary Search Tree](src/main/java/practise/datastructures/BinarySearchTree/LowestCommonAncestorBST.java) <br/>
 
+### Graph 
+[Graph](src/main/java/practise/datastructures/graph/Graph.java)
+
 
 # Algorithms
 
