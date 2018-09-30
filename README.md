@@ -54,6 +54,7 @@
 [18. Height of Binary Tree](src/main/java/practise/datastructures/BinaryTree/HeightOfBT.java)<br/>
 [19. Diameter of Binary Tree](src/main/java/practise/datastructures/BinaryTree/DiameterOfBT.java)<br/>
 [20. Distance between two nodes of a Binary Tree](src/main/java/practise/datastructures/BinaryTree/DistanceBwTwoNodesBT.java)<br/>
+[21. Print common nodes on path from root (or common ancestors)](src/main/java/practise/datastructures/BinaryTree/PrintCommonNodesOnPathFromRoot.java)<br/>
 
 
 ### Binary Search Tree 
