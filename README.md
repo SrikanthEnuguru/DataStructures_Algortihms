@@ -53,6 +53,7 @@
 [17. Check if two trees are Mirror](src/main/java/practise/datastructures/BinaryTree/CheckBTsAreMirror.java)<br/>
 [18. Height of Binary Tree](src/main/java/practise/datastructures/BinaryTree/HeightOfBT.java)<br/>
 [19. Diameter of Binary Tree](src/main/java/practise/datastructures/BinaryTree/DiameterOfBT.java)<br/>
+[20. Distance between two nodes of a Binary Tree](src/main/java/practise/datastructures/BinaryTree/DistanceBwTwoNodesBT.java)<br/>
 
 
 ### Binary Search Tree 
