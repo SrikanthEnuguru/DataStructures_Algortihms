@@ -18,6 +18,7 @@
 [3. Stack Using One Queue](src/main/java/practise/datastructures/stack/StackUsingOneQueue.java) <br />
 [4. Get minimum element from stack](src/main/java/practise/datastructures/stack/MinElementInStack.java) <br />
 [5. Sort the elements of the Stack](src/main/java/practise/datastructures/stack/SortStack.java) <br />
+[6. LRU Cache](src/main/java/practise/datastructures/lrucache/LRUCache.java)<br/>
 
 
 ### Queue 
