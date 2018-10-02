@@ -61,6 +61,7 @@
 [24. Maximum Path Sum in a Binary Tree](src/main/java/practise/datastructures/BinaryTree/MaxPathSumInBT.java)<br/>
 [25. Check whether a binary tree is a full binary tree or not](src/main/java/practise/datastructures/BinaryTree/IsFullBT.java)<br/>
 [26. Print Top View of Binary Tree](src/main/java/practise/datastructures/BinaryTree/TopViewOfBT.java) <br />
+[27. Remove nodes on root to leaf paths of length < K](src/main/java/practise/datastructures/BinaryTree/RemoveShortPathNodesBT.java)<br/>
 
 
 ### Binary Search Tree 

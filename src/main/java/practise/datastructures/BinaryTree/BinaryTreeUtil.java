@@ -83,6 +83,16 @@ public class BinaryTreeUtil {
 		return tree;
 	}
 
+	/* Constructed binary tree is
+               20
+             /   \
+            8     22
+           / \
+          4   12
+              / \
+             10  14
+       */
+
 	public static BinaryTree createSampleBT2() {
 		BinaryTreeNode node4 = new BinaryTreeNode(4);
 		BinaryTreeNode node22 = new BinaryTreeNode(22);
