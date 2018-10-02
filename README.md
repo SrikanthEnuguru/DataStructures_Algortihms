@@ -60,6 +60,7 @@
 [23. Find Minimum Depth of a Binary Tree](src/main/java/practise/datastructures/BinaryTree/MinimumDepthOfBT.java)<br/>
 [24. Maximum Path Sum in a Binary Tree](src/main/java/practise/datastructures/BinaryTree/MaxPathSumInBT.java)<br/>
 [25. Check whether a binary tree is a full binary tree or not](src/main/java/practise/datastructures/BinaryTree/IsFullBT.java)<br/>
+[26. Print Top View of Binary Tree](src/main/java/practise/datastructures/BinaryTree/TopViewOfBT.java) <br />
 
 
 ### Binary Search Tree 
