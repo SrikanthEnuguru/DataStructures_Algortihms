@@ -57,6 +57,15 @@ public class BinaryTreeUtil {
 		return tree;
 	}
 
+	/* Constructed binary search tree is
+                10
+              /    \
+            -10     30
+              \     / \
+              8   25 60
+            / \    \   \
+           6  9    28   78
+        */
 	public static BinaryTree createSampleBST2() {
 		BinaryTreeNode node6 = new BinaryTreeNode(6);
 		BinaryTreeNode node9 = new BinaryTreeNode(9);
