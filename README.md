@@ -62,7 +62,7 @@
 [25. Check whether a binary tree is a full binary tree or not](src/main/java/practise/datastructures/BinaryTree/IsFullBT.java)<br/>
 [26. Print Top View of Binary Tree](src/main/java/practise/datastructures/BinaryTree/TopViewOfBT.java) <br />
 [27. Remove nodes on root to leaf paths of length < K](src/main/java/practise/datastructures/BinaryTree/RemoveShortPathNodesBT.java)<br/>
-
+[28. Check if a binary tree is subtree of another binary tree](src/main/java/practise/datastructures/BinaryTree/IsSubTree.java)<br/>
 
 ### Binary Search Tree 
 [1. Lowest Common Ancestor in a Binary Search Tree](src/main/java/practise/datastructures/BinarySearchTree/LowestCommonAncestorBST.java) <br/>
