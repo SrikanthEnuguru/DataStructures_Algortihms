@@ -78,3 +78,9 @@
 [2. Longest Common Subsequence](src/main/java/practise/algorithms/dp/LongestCommonSubsequence.java) <br />
 [3. Egg Dropping Puzzle](src/main/java/practise/algorithms/dp/EggDropping.java) <br />
 [4. Edit Distance](src/main/java/practise/algorithms/dp/EditDistance.java) <br />
+
+# System Design 
+
+### In-Memory File System
+[Entry](src/main/java/practise/systemdesign/filesystem/Entry.java) | [Directory](src/main/java/practise/systemdesign/filesystem/Directory.java) 
+| [File](src/main/java/practise/systemdesign/filesystem/File.java)
