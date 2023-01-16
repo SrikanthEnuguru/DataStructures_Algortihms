@@ -1,3 +1,10 @@
+# Top Interview Questions Leetcode
+
+## Easy Collection
+
+### Arrays
+[1. Remove Duplicates from Sorted Array](src/main/java/practise/top/easy/array/RemoveDuplicatesInPlace.java) <br />
+
 # DataStructures
 
 ### Linked List 
