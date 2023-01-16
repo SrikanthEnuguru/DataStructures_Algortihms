@@ -4,6 +4,9 @@
 
 ### Arrays
 [1. Remove Duplicates from Sorted Array](src/main/java/practise/top/easy/array/RemoveDuplicatesInPlace.java) <br />
+[2. Contains Duplicate](src/main/java/practise/top/easy/array/ContainsDuplicate.java) <br />
+[3. Rotate Array](src/main/java/practise/top/easy/array/RotateArray.java) <br />
+[4. Best Time to Buy and Sell Stock II](src/main/java/practise/top/easy/array/MaxProfit.java) <br />
 
 # DataStructures
 
