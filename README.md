@@ -7,6 +7,14 @@
 [2. Contains Duplicate](src/main/java/practise/top/easy/array/ContainsDuplicate.java) <br />
 [3. Rotate Array](src/main/java/practise/top/easy/array/RotateArray.java) <br />
 [4. Best Time to Buy and Sell Stock II](src/main/java/practise/top/easy/array/MaxProfit.java) <br />
+[5. Move Zeroes In Place](src/main/java/practise/top/easy/array/MoveZeroesInPlace.java) <br />
+[6. Single Number](src/main/java/practise/top/easy/array/SingleNumber.java) <br />
+[7. Two Sum](src/main/java/practise/top/easy/array/TwoSum.java) <br />
+
+## Medium Collection
+
+### Arrays
+[1. Valid Sudoku](src/main/java/practise/top/medium/array/ValidSudoku.java) <br />
 
 # DataStructures
 
