@@ -1,4 +1,4 @@
-# Top Interview Questions Leetcode
+# Top Interview Questions
 
 ## Easy Collection
 
@@ -11,10 +11,17 @@
 [6. Single Number](src/main/java/practise/top/easy/array/SingleNumber.java) <br />
 [7. Two Sum](src/main/java/practise/top/easy/array/TwoSum.java) <br />
 
+### String
+[1. Reverse String](src/main/java/practise/top/easy/string/ReverseString.java) <br />
+[2. Reverse Integer](src/main/java/practise/top/easy/string/ReverseInteger.java) <br />
+[2. First Unique Character in a String](src/main/java/practise/top/easy/string/FirstUniqueCharacter.java) <br />
+
+
 ## Medium Collection
 
 ### Arrays
 [1. Valid Sudoku](src/main/java/practise/top/medium/array/ValidSudoku.java) <br />
+[2. Rotate Matrix](src/main/java/practise/top/medium/array/RotateMatrix.java) <br />
 
 # DataStructures
 
