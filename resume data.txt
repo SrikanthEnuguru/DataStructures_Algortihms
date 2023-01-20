@@ -1,0 +1,63 @@
+Summary:
+
+Full Stack Software Engineer with 9.5 years of experience in design and development of enterprise applications, 
+bringing forth expertise in managing all aspects of the software development life cycle.
+
+Skills:
+Front End: Javascript, Typescript, HTML, CSS, Bootstrap, Angular, Lightning Web Components(LWC), Aura, Highcharts.
+Back End: Java, Spring Boot, Spring Cloud, Oracle, MySQL, Splunk.
+Test Frameworks: JUnit, Mockito, Jest, Selenium.
+
+Functional Skills:
+Requirements gathering, design, modeling, development, code review, debugging, testing, documentation & monitoring metrics.
+
+No technology constraint. Can learn and implement any technology.
+Proficient in working with teams across Geo locations.
+
+I want to build a successful career in a dynamic & challenging environment where in my technical,
+communicative, interpersonal & managerial skills can be utilized & enriched.
+
+
+JDA:
+Forecasting algorithms: Lewandowski(Proprierty algo), Moving Average, AVS Graves, Halt Winter etc.
+Demand Forecasting Team.
+Input - Sales history
+
+Forecast-as-a-service
+pass sales history to get forecast
+
+Stages: 
+Cleansing and calculate fitted history, 
+error computation b/w fitted history and actual history.
+Forecast generate using 
+
+Work:
+•	Part of JDA Demand Planning & Forecasting team. Helped clients like IKEA & Walmart to enhance the accuracy of their inventory planning.
+•	Designed & developed various UI components/widgets in Demand Forecast Dashboard, which helped Demand Planners to configure the metadata for various forecasting algorithms.
+•	Researched on various frameworks like DHTMLX, ExtJS & HighCharts to replace Fusion Charts and delivered POC for various components of the product.
+•	Designed & developed various backend RESTful web services for migrating the existing monolith app to micro services architecture.
+•	Tools: Java, Javascript, HTML, CSS, Bootstrap, Angular, Typescript, HighCharts, Spring Boot, Spring Cloud, JUnit, Mockito.
+
+
+Salesforce - SMTS - B2B Commerce Cloud :
+•	Part of Account & Post Order Management team in B2B Commerce Cloud.
+•	Designed and developed Account Switcher feature E2E to allow B2B customers to extend and customize the existing functionality to meet their specific needs.
+•	Contributed to the design and implementation of new products and features in Order Summary Management module while also enhancing the existing product suite.
+•	Enriched External Managed Accounts service metrics by facilitating in-depth logging in the APIs used in various operations, which helped the team to monitor various SLOs.
+•	Used Splunk to do week-over-week analysis of performance metrics like No.of Requests, Errors, Availability & Duration(READ) of various services that our team own.
+•	Collaborated with all stakeholders like Product Managers, UX & Platform teams to understand detailed requirements and owned the features from design, implementation, testing, documentation & monitoring metrics across releases. 
+
+Salesforce - MTS - Industries Cloud :
+•	Worked as a core team member of Loyalty Management team and developed the product from scratch.
+•	Developed various features E2E in Loyalty Management platform that helped our B2B customers to manage loyalty programs for their customers.
+•	Followed engineering process for each release supported by epic/story grooming, estimation, design specs, test plan reviews, unit/integration tests, code reviews etc.	
+•	Mentored other engineers on various design decisions and provided suggestions for the code improvements.
+
+•	Tools: Lightning Web Components(LWC) & Aura UI frameworks, Java, Javascript, Typescript, HTML, CSS, Jest, Selenium & Mockito.
+ 
+
+Worked with management and technical support to swiftly address any high priority issues and release fixes.
+Part of Loyalty Management team in Industries Cloud. We operate as a startup within Salesforce building products targeted to specific industry verticals.
+Used Git & Perforce for code versioning of various components of the product.
+Actively participated in designing the entire architecture consisting of multiple services.
+Extensive project experience in various phases of SLDC like Planning & Analysis, Detailed Architectural Design, Build, Testing and Deployment process.

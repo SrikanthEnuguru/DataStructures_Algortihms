@@ -10,11 +10,36 @@
 [5. Move Zeroes In Place](src/main/java/practise/top/easy/array/MoveZeroesInPlace.java) <br />
 [6. Single Number](src/main/java/practise/top/easy/array/SingleNumber.java) <br />
 [7. Two Sum](src/main/java/practise/top/easy/array/TwoSum.java) <br />
+[8. Maximum Subarray](src/main/java/practise/top/easy/array/MaximumSubarray.java) <br />
 
 ### String
 [1. Reverse String](src/main/java/practise/top/easy/string/ReverseString.java) <br />
 [2. Reverse Integer](src/main/java/practise/top/easy/string/ReverseInteger.java) <br />
-[2. First Unique Character in a String](src/main/java/practise/top/easy/string/FirstUniqueCharacter.java) <br />
+[3. First Unique Character in a String](src/main/java/practise/top/easy/string/FirstUniqueCharacter.java) <br />
+[4. Valid Anagram](src/main/java/practise/top/easy/string/ValidAnagram.java) <br />
+[5. Valid Palindrome](src/main/java/practise/top/easy/string/ValidPalindrome.java) <br/>
+
+### LinkedList
+[1. Detect Loop in linked list](src/main/java/practise/datastructures/linkedlist/DetectLoopInLinkedList.java) <br />
+[2. Palindrome Linked List](src/main/java/practise/top/easy/linkedlist/CheckLinkedListPalindrome.java) <br />
+[3. Delete Node in a Linked List](src/main/java/practise/top/easy/linkedlist/DeleteNode.java) <br />
+[4. Merge Two Sorted Lists](src/main/java/practise/top/easy/linkedlist/MergeTwoLists.java) <br />
+[5. Remove Linked List Elements](src/main/java/practise/top/easy/linkedlist/RemoveLinkedListElements.java) <br />
+[6. Reverse Linked List](src/main/java/practise/top/easy/linkedlist/ReverseLinkedList.java) <br />
+[6. Remove Nth Node From End of List](src/main/java/practise/top/easy/linkedlist/RemoveNthNodeFromEnd.java) <br />
+
+### Binary Tree
+[1. Symmetric Tree](src/main/java/practise/top/easy/binarytree/IsSymmetric.java) <br />
+[2. Binary Tree Level Order Traversal](src/main/java/practise/top/easy/binarytree/LevelsUsingLevelOrderTraversal.java) <br />
+[3. Maximum Depth of Binary Tree](src/main/java/practise/top/easy/binarytree/MaxDepth.java) <br />
+
+### Binary Search Tree
+[1. Validate Binary Search Tree](src/main/java/practise/top/easy/bst/ValidateBST.java) <br />
+
+### Dynamic Programming
+[1. Best Time to Buy and Sell Stock](src/main/java/practise/top/easy/dp/BestTimeToBuyAndSellStock.java) <br />
+[2. Climbing Stairs](src/main/java/practise/top/easy/dp/ClimbStairs.java) <br />
+[3. House Robber](src/main/java/practise/top/easy/dp/HouseRobber.java) <br />
 
 
 ## Medium Collection
@@ -22,6 +47,17 @@
 ### Arrays
 [1. Valid Sudoku](src/main/java/practise/top/medium/array/ValidSudoku.java) <br />
 [2. Rotate Matrix](src/main/java/practise/top/medium/array/RotateMatrix.java) <br />
+
+### String
+[1. Find the Index of the First Occurrence in a String strStr()](src/main/java/practise/top/medium/string/StrStr.java) <br />
+[2. Longest Common Prefix](src/main/java/practise/top/medium/string/LongestCommonPrefix.java) <br />
+[3. String to Integer (atoi)](src/main/java/practise/top/medium/string/StringToInteger.java) <br />
+
+### Binary Search Tree
+[1. Delete Node in Binary Search Tree](src/main/java/practise/top/medium/bst/DeleteNodeInBST.java) <br />
+
+
+
 
 # DataStructures
 
