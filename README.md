@@ -30,7 +30,7 @@
 [4. Merge Two Sorted Lists](src/main/java/practise/top/easy/linkedlist/MergeTwoLists.java) <br/>
 [5. Remove Linked List Elements](src/main/java/practise/top/easy/linkedlist/RemoveLinkedListElements.java) <br/>
 [6. Reverse Linked List](src/main/java/practise/top/easy/linkedlist/ReverseLinkedList.java) <br/>
-[6. Remove Nth Node From End of List](src/main/java/practise/top/easy/linkedlist/RemoveNthNodeFromEnd.java) <br/>
+[7. Remove Nth Node From End of List](src/main/java/practise/top/easy/linkedlist/RemoveNthNodeFromEnd.java) <br/>
 
 ### Binary Tree
 [1. Symmetric Tree](src/main/java/practise/top/easy/binarytree/IsSymmetric.java) <br/>
@@ -140,7 +140,6 @@
 [11. Print Bottom View of Binary Tree](src/main/java/practise/datastructures/BinaryTree/BottomViewOfBT.java) <br/>
 [12. Print a Binary Tree in Vertical Order](src/main/java/practise/datastructures/BinaryTree/VerticalOrderBT.java) <br/>
 [13. Level order traversal in spiral form](src/main/java/practise/datastructures/BinaryTree/PrintSpiralBT.java) <br/>
-[13. Connect Nodes at Same Level](src/main/java/practise/datastructures/BinaryTree/ConnectNodesAtSameLevel.java) <br/>
 [14. Lowest Common Ancestor in a Binary Tree](src/main/java/practise/datastructures/BinaryTree/LowestCommonAncestorBT.java) <br/>
 [15. Convert a given Binary Tree to Doubly Linked List](src/main/java/practise/datastructures/BinaryTree/ConvertBTtoDLL.java) <br/>
 [16. Determine if Two Trees are Identical or Not](src/main/java/practise/datastructures/BinaryTree/IdenticalBinaryTrees.java)<br/>
@@ -156,6 +155,7 @@
 [26. Print Top View of Binary Tree](src/main/java/practise/datastructures/BinaryTree/TopViewOfBT.java) <br/>
 [27. Remove nodes on root to leaf paths of length < K](src/main/java/practise/datastructures/BinaryTree/RemoveShortPathNodesBT.java)<br/>
 [28. Check if a binary tree is subtree of another binary tree](src/main/java/practise/datastructures/BinaryTree/IsSubTree.java)<br/>
+[29. Connect Nodes at Same Level](src/main/java/practise/datastructures/BinaryTree/ConnectNodesAtSameLevel.java) <br/>
 
 ### Binary Search Tree 
 [1. Lowest Common Ancestor in a Binary Search Tree](src/main/java/practise/datastructures/BinarySearchTree/LowestCommonAncestorBST.java) <br/>
