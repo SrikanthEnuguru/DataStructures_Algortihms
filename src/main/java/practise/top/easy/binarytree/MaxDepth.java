@@ -1,6 +1,7 @@
 package practise.top.easy.binarytree;
 
 import java.util.LinkedList;
+import java.util.Stack;
 
 /**
  * Refer: https://leetcode.com/problems/maximum-depth-of-binary-tree/solutions/176802/official-solution/
@@ -47,5 +48,38 @@ public class MaxDepth {
             }
         }
         return depth;
+    }
+
+    public Integer maxDepth_Iteration2(TreeNode root) {
+        if (root == null) return null;
+        Stack<State> stack = new Stack<>();
+        stack.push(new State(root, 0));
+        int ans = 0;
+
+        while (!stack.isEmpty()) {
+            State state = stack.pop();
+            TreeNode node = state.node;
+            int depth = state.depth;
+
+            ans = Math.max(ans, depth);
+
+            if (node.left != null) {
+                stack.push(new State(node.left, depth + 1));
+            }
+            if (node.right != null) {
+                stack.push(new State(node.right, depth + 1));
+            }
+        }
+        return ans;
+    }
+}
+
+class State {
+    TreeNode node;
+    int depth;
+
+    State(TreeNode node, int depth) {
+        this.node = node;
+        this.depth = depth;
     }
 }

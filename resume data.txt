@@ -61,3 +61,13 @@ Part of Loyalty Management team in Industries Cloud. We operate as a startup wit
 Used Git & Perforce for code versioning of various components of the product.
 Actively participated in designing the entire architecture consisting of multiple services.
 Extensive project experience in various phases of SLDC like Planning & Analysis, Detailed Architectural Design, Build, Testing and Deployment process.
+
+
+Tech-savvy Full Stack Developer with 9+ years of hands-on experience in design and development of enterprise applications, bringing forth expertise in managing all aspects of the software development life cycle.
+Excellent time management, organizational, and prioritization skills with an aptitude to balance multiple priorities.
+
+
+Tech-savvy Full Stack Developer with 9+ years of experience in application layers, presentation layers, and databases. 
+Analytical and precise professional with hands of experience taking charge of front and backend application development. 
+Highly skilled in Analysis, Design, Development, Maintenance, Testing, Reviewing and Documentation to deliver compelling business value. 
+Excellent time management, organizational, and prioritization skills with an aptitude to balance multiple priorities. 

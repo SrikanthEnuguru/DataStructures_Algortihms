@@ -16,7 +16,7 @@ package practise.top.easy.array;
  * <p>
  * Refer: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/solutions/127712/official-solution/
  */
-public class MaxProfit {
+public class BestTimeToBuyAndSellStock2 {
     public int maxProfit(int[] prices) {
         int maxProfit = 0;
         for (int i = 1; i < prices.length; i++) {
