@@ -83,6 +83,10 @@
 ### LinkedList
 [1. Add Two Numbers Linked List](src/main/java/practise/top/medium/linkedlist/AddTwoNumbersLinkedList.java) <br/>
 [2. Intersection Of Two Linked Lists](src/main/java/practise/top/medium/linkedlist/IntersectionOfTwoLinkedLists.java) <br/>
+[3. Odd Even Linked List](src/main/java/practise/top/medium/linkedlist/OddEvenLinkedList.java) <br/>
+[4. Reorder Linked List](src/main/java/practise/top/medium/linkedlist/ReorderList.java) <br/>
+[5. Rotate Linked List](src/main/java/practise/top/medium/linkedlist/RotateList.java) <br/>
+[6. Reverse a Linked List in groups of given size](src/main/java/practise/datastructures/linkedlist/ReverseLinkedListInGroups.java) <br/>
 
 ### Dynamic Programming
 [1. Coin Change](src/main/java/practise/top/medium/dp/CoinChange.java) <br/>
@@ -105,6 +109,9 @@
 [1. Median Of Two Sorted Arrays](src/main/java/practise/top/hard/array/MedianOfTwoSortedArrays.java) <br/>
 [2. Trapping Rain Water](src/main/java/practise/top/hard/array/TrappingRainWater.java) <br/>
 
+### LinkedList
+[1. Copy List With Random Pointer](src/main/java/practise/top/hard/linkedlist/CopyListWithRandomPointer.java) <br/>
+[2. Sort Linked List](src/main/java/practise/top/hard/linkedlist/SortLinkedList.java) <br/>
 
 # DataStructures
 
