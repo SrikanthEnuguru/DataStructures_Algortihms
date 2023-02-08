@@ -28,6 +28,7 @@ public class RemoveNthNodeFromEnd {
         int count = 0;
         while (count <= n) {
             fp = fp.next;
+            count++;
         }
 
         while (fp != null && fp.next != null) {
