@@ -139,7 +139,7 @@
 
 ## Binary Search Tree
 [Validate Binary Search Tree](src/main/java/practise/top/easy/bst/ValidateBST.java) <br/>
-[Minimum Absolute Difference In BST](src/main/java/practise/top/easy/bst/v.java) <br/>
+[Minimum Absolute Difference In BST](src/main/java/practise/top/easy/bst/MinimumAbsoluteDifferenceInBST.java) <br/>
 [Delete Node in Binary Search Tree](src/main/java/practise/top/medium/bst/DeleteNodeInBST.java) <br/>
 [Lowest Common Ancestor in a Binary Search Tree](src/main/java/practise/datastructures/BinarySearchTree/LowestCommonAncestorBST.java) <br/>
 [Convert Sorted Array To BST](src/main/java/practise/datastructures/BinarySearchTree/ConvertSortedArrayToBST.java) <br/>
