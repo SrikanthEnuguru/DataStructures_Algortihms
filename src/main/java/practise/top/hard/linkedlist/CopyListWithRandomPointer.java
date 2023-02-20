@@ -50,8 +50,8 @@ public class CopyListWithRandomPointer {
         // Recursively copy the remaining linked list starting once from the next pointer and then from the random pointer.
         // Thus we have two independent recursive calls.
         // Finally we update the next and random pointers for the new node created.
-        node.next = copyRandomList_Rec(node.next);
-        node.random = copyRandomList_Rec(node.random);
+        node.next = copyRandomList_Rec(head.next);
+        node.random = copyRandomList_Rec(head.random);
 
         return node;
     }

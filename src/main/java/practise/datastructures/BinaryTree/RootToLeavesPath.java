@@ -38,8 +38,8 @@ public class RootToLeavesPath {
 		List<String> paths = new LinkedList<>();
 		if(root==null) return paths;
 
-		LinkedList<TreeNode> node_stack = new LinkedList();
-		LinkedList<String> path_stack = new LinkedList();
+		LinkedList<TreeNode> node_stack = new LinkedList<>();
+		LinkedList<String> path_stack = new LinkedList<>();
 		node_stack.add(root);
 		path_stack.add(Integer.toString(root.val));
 		TreeNode node;
@@ -51,11 +51,11 @@ public class RootToLeavesPath {
 				paths.add(path);
 			if (node.left != null) {
 				node_stack.add(node.left);
-				path_stack.add(path + "->" + Integer.toString(node.left.val));
+				path_stack.add(path + "->" + node.left.val);
 			}
 			if (node.right != null) {
 				node_stack.add(node.right);
-				path_stack.add(path + "->" + Integer.toString(node.right.val));
+				path_stack.add(path + "->" + node.right.val);
 			}
 		}
 		return paths;

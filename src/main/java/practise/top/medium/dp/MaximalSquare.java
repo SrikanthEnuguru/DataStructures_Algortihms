@@ -18,7 +18,8 @@ public class MaximalSquare {
 
         int[][] dp = new int[m + 1][n + 1];
         int largest = 0;
-
+        // for convenience, we add an extra all zero column and row
+        // outside of the actual dp table, to simplify the transition
         for (int i = 1; i < m; i++) {
             for (int j = 1; j < n; j++) {
                 if (matrix[i - 1][j - 1] == '1') {
@@ -27,6 +28,6 @@ public class MaximalSquare {
                 }
             }
         }
-        return dp[m - 1][n - 1];
+        return largest*largest;
     }
 }

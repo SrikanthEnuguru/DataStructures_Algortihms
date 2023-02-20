@@ -36,6 +36,7 @@
 [First Unique Character in a String](src/main/java/practise/top/easy/string/FirstUniqueCharacter.java) <br/>
 [Valid Anagram](src/main/java/practise/top/easy/string/ValidAnagram.java) <br/>
 [Valid Palindrome](src/main/java/practise/top/easy/string/ValidPalindrome.java) <br/>
+[Count Pairs Of Similar Strings](src/main/java/practise/top/easy/string/CountPairsOfSimilarStrings.java) <br/>
 
 ### Medium
 [Find the Index of the First Occurrence in a String strStr()](src/main/java/practise/top/medium/string/StrStr.java) <br/>
@@ -143,13 +144,15 @@
 [Delete Node in Binary Search Tree](src/main/java/practise/top/medium/bst/DeleteNodeInBST.java) <br/>
 [Lowest Common Ancestor in a Binary Search Tree](src/main/java/practise/datastructures/BinarySearchTree/LowestCommonAncestorBST.java) <br/>
 [Convert Sorted Array To BST](src/main/java/practise/datastructures/BinarySearchTree/ConvertSortedArrayToBST.java) <br/>
-[Convert Sorted List To Binary Search Tree](src/main/java/practise/datastructures/BinarySearchTree/LowestCommonAncestorBST.java) <br/>
-[Kth Smallest Element In BST](src/main/java/practise/datastructures/BinarySearchTree/LowestCommonAncestorBST.java) <br/>
-[Lowest Common Ancestor Of Binary Search Tree](src/main/java/practise/datastructures/BinarySearchTree/LowestCommonAncestorBST.java) <br/>
-[Recover Binary Search Tree](src/main/java/practise/datastructures/BinarySearchTree/LowestCommonAncestorBST.java) <br/>
-[Unique Binary Search Trees](src/main/java/practise/datastructures/BinarySearchTree/LowestCommonAncestorBST.java) <br/>
-[Unique Binary Search Trees II](src/main/java/practise/datastructures/BinarySearchTree/LowestCommonAncestorBST.java) <br/>
+[Convert Sorted List To Binary Search Tree](src/main/java/practise/datastructures/BinarySearchTree/ConvertSortedListToBinarySearchTree.java) <br/>
+[Kth Smallest Element In BST](src/main/java/practise/datastructures/BinarySearchTree/KthSmallestElementInBST.java) <br/>
+[Lowest Common Ancestor Of Binary Search Tree](src/main/java/practise/datastructures/BinarySearchTree/LowestCommonAncestorOfBinarySearchTree.java) <br/>
+[Recover Binary Search Tree](src/main/java/practise/datastructures/BinarySearchTree/RecoverBinarySearchTree.java) <br/>
+[Unique Binary Search Trees](src/main/java/practise/datastructures/BinarySearchTree/UniqueBinarySearchTrees.java) <br/>
+[Unique Binary Search Trees II](src/main/java/practise/datastructures/BinarySearchTree/UniqueBinarySearchTreesII.java) <br/>
 
+## Backtracking
+[Generate Parentheses](src/main/java/practise/top/medium/backtracking/GenerateParentheses.java) <br/>
 
 ## Dynamic Programming
 [Best Time to Buy and Sell Stock](src/main/java/practise/top/easy/dp/BestTimeToBuyAndSellStock.java) <br/>

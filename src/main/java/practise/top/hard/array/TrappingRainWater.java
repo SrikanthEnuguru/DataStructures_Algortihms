@@ -27,7 +27,7 @@ public class TrappingRainWater {
 
         int lmax = 0, rmax = 0, ans = 0;
         for (int i = 0; i < heights.length; i++) {
-            for (int j = i; j >= 0; i--) {
+            for (int j = i; j >= 0; j--) {
                 lmax = Math.max(lmax, heights[j]);
             }
             for (int j = i; j < heights.length; j++) {

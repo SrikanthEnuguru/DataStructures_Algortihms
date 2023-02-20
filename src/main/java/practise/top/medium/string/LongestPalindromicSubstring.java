@@ -16,6 +16,33 @@ public class LongestPalindromicSubstring {
 
     public static void main(String[] args) {
         System.out.println(longestPalindrome("babad"));
+        System.out.println(longestPalindrome_dp("babad"));
+    }
+
+    public static String longestPalindrome_dp(String s) {
+        if (s == null || s.length() == 0) return s;
+
+        int len = s.length();
+        int max = 0;
+        String ans = "";
+        boolean dp[][] = new boolean[len][len];
+
+        for (int start = 0; start < len; start++) {
+            for (int end = 0; end <= start; end++) {
+                boolean judge = s.charAt(start) == s.charAt(end);
+
+                if (end - start > 2) { // for strings of length > 2
+                    dp[start][end] = dp[start + 1][end - 1] && judge;
+                } else { // for strings of length 1 or 2
+                    dp[start][end] = judge;
+                }
+                if (dp[start][end] && end - start + 1 > max) {
+                    max = end - start + 1;
+                    ans = s.substring(start, end + 1);
+                }
+            }
+        }
+        return ans;
     }
 
     /**

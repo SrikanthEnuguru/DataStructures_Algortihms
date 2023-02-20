@@ -37,7 +37,7 @@ public class UniquePathsII {
 
         // fill 1st column
         isObstacleFound = false;
-        for (int i = 0; i < cols; i++) {
+        for (int i = 0; i < rows; i++) {
             if (isObstacleFound || obstacleGrid[i][0] == 1) {
                 isObstacleFound = true;
                 dp[i][0] = 0;

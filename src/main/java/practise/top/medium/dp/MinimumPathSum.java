@@ -28,11 +28,11 @@ public class MinimumPathSum {
         dp[0][0] = grid[0][0];
 
         // fill 1st row
-        for (int i = 1; i < rows; i++) {
+        for (int i = 1; i < cols; i++) {
             dp[0][i] = grid[0][i] + dp[0][i - 1];
         }
         // fill 1st col
-        for (int i = 1; i < cols; i++) {
+        for (int i = 1; i < rows; i++) {
             dp[i][0] = grid[i][0] + dp[i - 1][0];
         }
 

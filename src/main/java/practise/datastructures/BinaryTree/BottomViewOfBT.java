@@ -57,11 +57,7 @@ public class BottomViewOfBT {
                 q.add(temp.right);
             }
         }
-
-        Set<Map.Entry<Integer, Integer>> set = map.entrySet();
-        Iterator<Map.Entry<Integer, Integer>> it = set.iterator();
-        while (it.hasNext()) {
-            Map.Entry<Integer, Integer> entry = it.next();
+        for(Map.Entry<Integer, Integer> entry: map.entrySet()){
             System.out.print(entry.getValue() + " ");
         }
     }
