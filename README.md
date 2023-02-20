@@ -34,6 +34,7 @@
 [Reverse String](src/main/java/practise/top/easy/string/ReverseString.java) <br/>
 [Reverse Integer](src/main/java/practise/top/easy/string/ReverseInteger.java) <br/>
 [First Unique Character in a String](src/main/java/practise/top/easy/string/FirstUniqueCharacter.java) <br/>
+[First Unique Character in a Stream](src/main/java/practise/top/easy/string/FirstNonRepeatingCharacterInStream.java) <br/>
 [Valid Anagram](src/main/java/practise/top/easy/string/ValidAnagram.java) <br/>
 [Valid Palindrome](src/main/java/practise/top/easy/string/ValidPalindrome.java) <br/>
 [Count Pairs Of Similar Strings](src/main/java/practise/top/easy/string/CountPairsOfSimilarStrings.java) <br/>
