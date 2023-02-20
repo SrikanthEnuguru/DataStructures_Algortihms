@@ -136,6 +136,7 @@
 [Root to Leaf Path Sum](src/main/java/practise/top/easy/binarytree/RootToLeafPathSum.java) <br/>
 [Count Good Nodes In Binary Tree](src/main/java/practise/top/medium/binarytree/CountGoodNodesInBinaryTree.java) <br/>
 [Maximum Difference Between Node And Ancestor](src/main/java/practise/top/medium/binarytree/MaximumDifferenceBetweenNodeAndAncestor.java) <br/>
+[Binary Tree Maximum Path Sum](src/main/java/practise/top/hard/binarytree/BinaryTreeMaximumPathSum.java) <br/>
 
 
 ## Binary Search Tree
