@@ -1,5 +1,7 @@
 package practise.algorithms.dp;
 
+import java.util.Arrays;
+
 /**
  * 
  * @author Srikanth Enuguru
@@ -22,6 +24,26 @@ public class LongestIncreasingSubsequence {
 		int arr[] = { 10, 22, 9, 33, 21, 50, 41, 60 };
 		int n = arr.length;
 		System.out.println("Length of lis is " + LIS_DP(arr, n) );
+	}
+
+	public int lengthOfLIS(int[] nums) {
+		int[] dp = new int[nums.length];
+		Arrays.fill(dp, 1);
+
+		for (int i = 1; i < nums.length; i++) {
+			for (int j = 0; j < i; j++) {
+				if (nums[i] > nums[j]) {
+					dp[i] = Math.max(dp[i], dp[j] + 1);
+				}
+			}
+		}
+
+		int longest = 0;
+		for (int c: dp) {
+			longest = Math.max(longest, c);
+		}
+
+		return longest;
 	}
 
 	static int LIS_DP(int[] arr, int len) {

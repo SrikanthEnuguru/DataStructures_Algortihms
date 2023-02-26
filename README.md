@@ -177,6 +177,8 @@
 [Longest Common Subsequence](src/main/java/practise/algorithms/dp/LongestCommonSubsequence.java) <br/>
 [Egg Dropping Puzzle](src/main/java/practise/algorithms/dp/EggDropping.java) <br/>
 [Edit Distance](src/main/java/practise/algorithms/dp/EditDistance.java) <br/>
+[Jump Game II](src/main/java/practise/top/medium/dp/JumpGameII.java) <br/>
+[Minimum Number Of Taps To Open To Water Garden](src/main/java/practise/top/medium/dp/MinimumNumberOfTapsToOpenToWaterGarden.java) <br/>
 
 
 ## Graph

@@ -20,25 +20,29 @@ public class LongestPalindromicSubstring {
     }
 
     public static String longestPalindrome_dp(String s) {
-        if (s == null || s.length() == 0) return s;
+
+        if (s == null || "".equals(s)) {
+            return s;
+        }
 
         int len = s.length();
-        int max = 0;
+
         String ans = "";
-        boolean dp[][] = new boolean[len][len];
+        int max = 0;
 
-        for (int start = 0; start < len; start++) {
-            for (int end = 0; end <= start; end++) {
-                boolean judge = s.charAt(start) == s.charAt(end);
+        boolean[][] dp = new boolean[len][len];
 
-                if (end - start > 2) { // for strings of length > 2
-                    dp[start][end] = dp[start + 1][end - 1] && judge;
-                } else { // for strings of length 1 or 2
-                    dp[start][end] = judge;
-                }
-                if (dp[start][end] && end - start + 1 > max) {
-                    max = end - start + 1;
-                    ans = s.substring(start, end + 1);
+        for (int j = 0; j < len; j++) { // end idx
+
+            for (int i = 0; i <= j; i++) { // start idx
+
+                boolean judge = s.charAt(i) == s.charAt(j);
+
+                dp[i][j] = j - i > 2 ? dp[i + 1][j - 1] && judge : judge;
+
+                if (dp[i][j] && j - i + 1 > max) {
+                    max = j - i + 1;
+                    ans = s.substring(i, j + 1);
                 }
             }
         }
@@ -86,4 +90,6 @@ public class LongestPalindromicSubstring {
          */
         return R - L - 1;
     }
+
+
 }
