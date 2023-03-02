@@ -154,7 +154,16 @@
 [Unique Binary Search Trees II](src/main/java/practise/datastructures/BinarySearchTree/UniqueBinarySearchTreesII.java) <br/>
 
 ## Backtracking
+[All Paths From Source To Target](src/main/java/practise/top/medium/backtracking/AllPathsFromSourceToTarget.java) <br/>
+[All Possible K Combinations](src/main/java/practise/top/medium/backtracking/AllPossibleKCombinations.java) <br/>
+[All Possible Permutations](src/main/java/practise/top/medium/backtracking/AllPossiblePermutations.java) <br/>
+[All Possible Subsets](src/main/java/practise/top/medium/backtracking/AllPossibleSubsets.java) <br/>
+[Combination Sum](src/main/java/practise/top/medium/backtracking/CombinationSum.java) <br/>
+[Combination Sum III](src/main/java/practise/top/medium/backtracking/CombinationSumIII.java) <br/>
 [Generate Parentheses](src/main/java/practise/top/medium/backtracking/GenerateParentheses.java) <br/>
+[Letter Combinations Of Phone Number](src/main/java/practise/top/medium/backtracking/LetterCombinationsOfPhoneNumber.java) <br/>
+[NQueens II](src/main/java/practise/top/medium/backtracking/NQueensII.java) <br/>
+[Word Search](src/main/java/practise/top/medium/backtracking/WordSearch.java) <br/>
 
 ## Dynamic Programming
 [Best Time to Buy and Sell Stock](src/main/java/practise/top/easy/dp/BestTimeToBuyAndSellStock.java) <br/>

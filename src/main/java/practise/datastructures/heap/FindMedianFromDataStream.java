@@ -26,11 +26,7 @@ public class FindMedianFromDataStream {
     public FindMedianFromDataStream() {
         minH = new PriorityQueue<Integer>();
         /* By default, Java provides min heap. For max heap, we need to pass in a appropriate comparator */
-        maxH = new PriorityQueue<>(1, new Comparator<Integer>() {
-            public int compare(Integer ob1, Integer ob2) {
-                return ob2.compareTo(ob1);
-            }
-        });
+        maxH = new PriorityQueue<>(1, Comparator.reverseOrder());
     }
 
     /**
