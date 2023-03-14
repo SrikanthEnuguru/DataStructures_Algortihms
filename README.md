@@ -89,6 +89,7 @@
 ### Hard
 [Copy List With Random Pointer](src/main/java/practise/top/hard/linkedlist/CopyListWithRandomPointer.java) <br/>
 [Sort Linked List](src/main/java/practise/top/hard/linkedlist/SortLinkedList.java) <br/>
+[Merge K Sorted Lists](src/main/java/practise/top/hard/linkedlist/MergeKSortedLists.java) <br/>
 
 
 ## Binary Tree
@@ -199,6 +200,8 @@
 ## Heap
 [Min Heap](src/main/java/practise/datastructures/heap/MinHeap.java)<br/>
 [Max Heap](src/main/java/practise/datastructures/heap/MaxHeap.java)<br/>
+[Find Median From Data Stream](src/main/java/practise/datastructures/heap/FindMedianFromDataStream.java)<br/>
+[Top K Frequent Elements](src/main/java/practise/datastructures/heap/TopKFrequentElements.java)<br/>
 
 
 # System Design 
