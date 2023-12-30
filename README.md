@@ -47,6 +47,9 @@
 [Group Anagrams](src/main/java/practise/top/medium/string/GroupAnagrams.java) <br/>
 [Longest Palindromic Substring](src/main/java/practise/top/medium/string/LongestPalindromicSubstring.java) <br/>
 [Longest Substring Without Repeating Characters](src/main/java/practise/top/medium/string/LongestSubstringWithoutRepeatingCharacters.java) <br/>
+[Merge Strings Alternately](src/main/java/practise/leetcode75/arraystring/MergeStringsAlternately.java) <br/>
+[Greatest Common Divisor of Strings](src/main/java/practise/leetcode75/arraystring/GreatestCommonDivisorofStrings.java) <br/>
+
 
 ## Stack
 [Next Greater Element](src/main/java/practise/datastructures/stack/NextGreaterElement.java) <br/>
