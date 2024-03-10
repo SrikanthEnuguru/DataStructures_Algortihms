@@ -1,3 +1,14 @@
+# Grokking Coding Interview Patterns
+
+## Two Pointers
+[1. Valid Palindrome](src/main/java/practise/top/easy/string/ValidPalindrome.java) <br/>
+[2. Two Sum](src/main/java/practise/top/easy/array/TwoSum.java) <br/>
+[3. Three Sum Zero](src/main/java/practise/top/easy/array/ThreeSumZero.java) <br/>
+[4. Sum of Three Values](src/main/java/practise/top/easy/array/ThreeSum.java) <br/>
+[5. Remove Nth Node From End of List](src/main/java/practise/top/easy/linkedlist/RemoveNthNodeFromEnd.java) <br/>
+[6. Sort Colors](src/main/java/practise/top/easy/array/SortColors.java) <br/>
+[7. Reverse Words in a String](src/main/java/practise/top/easy/string/ReverseWordsInString.java) <br/>
+
 # Top Interview Questions
 
 ## Arrays
