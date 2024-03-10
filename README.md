@@ -16,6 +16,10 @@
 [4. Find the Duplicate Number](src/main/java/practise/datastructures/linkedlist/FindTheDuplicateNumber.java) <br/>
 [5. Palindrome Linked List](src/main/java/practise/top/easy/linkedlist/CheckLinkedListPalindrome.java) <br/>
 
+## Sliding Window
+[1. Repeated DNA Sequences](src/main/java/practise/top/medium/string/RepeatedDNASequences.java) <br/>
+[2. Sliding Window Maximum](src/main/java/practise/top/hard/array/SlidingWindowMaximum.java) <br/>
+
 # Top Interview Questions
 
 ## Arrays
