@@ -9,6 +9,13 @@
 [6. Sort Colors](src/main/java/practise/top/easy/array/SortColors.java) <br/>
 [7. Reverse Words in a String](src/main/java/practise/top/easy/string/ReverseWordsInString.java) <br/>
 
+## Fast and Slow Pointers
+[1. Happy Number](src/main/java/practise/datastructures/linkedlist/HappyNumber.java) <br/>
+[2. Detect Loop in linked list](src/main/java/practise/datastructures/linkedlist/DetectLoopInLinkedList.java) <br/>
+[3. Finding middle element in a linked list](src/main/java/practise/datastructures/linkedlist/MiddleElementInLinkedList.java) <br/>
+[4. Find the Duplicate Number](src/main/java/practise/datastructures/linkedlist/FindTheDuplicateNumber.java) <br/>
+[5. Palindrome Linked List](src/main/java/practise/top/easy/linkedlist/CheckLinkedListPalindrome.java) <br/>
+
 # Top Interview Questions
 
 ## Arrays
