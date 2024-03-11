@@ -3,40 +3,31 @@ package practise.datastructures.linkedlist;
 import static practise.datastructures.linkedlist.LinkedListUtil.getSampleLinkedListOddNumOfNodes;
 import static practise.datastructures.linkedlist.LinkedListUtil.printLinkedList;
 
+/**
+ * Given the head of a linked list, rotate the list to the right by k places.
+ * https://leetcode.com/problems/rotate-list/description/
+ */
 public class RotateLinkedList {
-    public static void main(String[] args) {
-        LinkedList ll_odd = getSampleLinkedListOddNumOfNodes();
-        printLinkedList(ll_odd.head);
-        rotateLinkedList(ll_odd, 2);
-        printLinkedList(ll_odd.head);
-    }
+    public static ListNode rotateRight(ListNode head, int k) {
+        if(head==null)
+            return null;
+        int size = 1; // since we are already at head node
+        ListNode fast=head;
+        ListNode slow = head;
 
-    static void rotateLinkedList(LinkedList ll, int k) {
-        if (k == 0) {
-            return;
+        while(fast.next!=null){
+            size++;
+            fast = fast.next;
         }
 
-        ListNode current = ll.head;
-        int count = 1;
+        for(int i=size-k%size;i>1;i--) // i>1 because we need to put slow.next at the start.
+            slow = slow.next;
 
-        while (count < k && current != null) {
-            current = current.next;
-            count++;
-        }
+        // No dummy variable.
+        fast.next = head;
+        head = slow.next;
+        slow.next = null;
 
-        if (current == null) {
-            return;
-        }
-
-        ListNode KthNode = current;
-
-        while (current.next != null) {
-            current = current.next;
-        }
-
-        current.next = ll.head;
-        ll.head = KthNode.next;
-        KthNode.next = null;
-
+        return head;
     }
 }
