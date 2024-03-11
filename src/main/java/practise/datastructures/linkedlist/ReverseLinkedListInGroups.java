@@ -23,6 +23,15 @@ public class ReverseLinkedListInGroups {
         ListNode prev = null;
         ListNode curr = head;
         ListNode next = null;
+
+        ListNode temp = head;
+        for (int i = 0; i < k; i++) {
+            if (temp == null) {
+                return head;
+            }
+            temp = temp.next;
+        }
+
         int count = 0;
 
         /* Reverse first k nodes of linked list */
