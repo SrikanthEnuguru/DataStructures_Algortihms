@@ -42,7 +42,7 @@ public class CountAllPalindromicSubstrings {
             ans++;
         }
         //Base case for two char strings
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n-1; i++) {
             dp[i][i + 1] = s.charAt(i) == s.charAt(i + 1);
             if (dp[i][i + 1]) {
                 ans++;
@@ -53,7 +53,7 @@ public class CountAllPalindromicSubstrings {
         for (int len = 3; len <= n; len++) {
             for (int i = 0, j = i + len - 1; j < n; i++, j++) {
                 dp[i][j] = dp[i + 1][j - 1] && s.charAt(i) == s.charAt(j);
-                if (dp[i][i]) {
+                if (dp[i][j]) {
                     ans++;
                 }
             }
