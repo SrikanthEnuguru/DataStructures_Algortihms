@@ -238,7 +238,6 @@
 # LLD
 
 [ConcurrentTaskScheduler](src/main/java/lld/ConcurrentTaskScheduler.java) | [Task](src/main/java/lld/Task.java)
-
-[ThreadSafeCache](src/main/java/lld/ThreadSafeCache.java)
-
-[FlexibleCache](src/main/java/lld/FlexibleCache.java) | [EvictionPolicy](src/main/java/lld/EvictionPolicy.java) | [LRUEvictionPolicy](src/main/java/lld/LRUEvictionPolicy.java) 
+[ThreadSafeCache](src/main/java/lld/ThreadSafeCache.java)<br/>
+[LRU Cache](src/main/java/practise/datastructures/lrucache/LRUCache.java)<br/>
+[FlexibleCache](src/main/java/lld/FlexibleCache.java) | [EvictionPolicy](src/main/java/lld/EvictionPolicy.java) | [LRUEvictionPolicy](src/main/java/lld/LRUEvictionPolicy.java) <br/>
