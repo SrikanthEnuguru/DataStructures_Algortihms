@@ -22,7 +22,7 @@ public class UniquePathsII {
 
         int rows = obstacleGrid.length;
         int cols = obstacleGrid[0].length;
-        int dp[][] = new int[rows + 1][cols + 1];
+        int[][] dp = new int[rows + 1][cols + 1];
 
         // fill 1st row
         boolean isObstacleFound = false;

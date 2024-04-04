@@ -234,3 +234,8 @@
 ### In-Memory File System
 [Entry](src/main/java/practise/systemdesign/filesystem/Entry.java) | [Directory](src/main/java/practise/systemdesign/filesystem/Directory.java) 
 | [File](src/main/java/practise/systemdesign/filesystem/File.java)
+
+# LLD
+
+### ConcurrentTaskScheduler
+[ConcurrentTaskScheduler](src/main/java/lld/ConcurrentTaskScheduler.java) | [Task](src/main/java/lld/Task.java)
